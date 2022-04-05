@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* headings */
+.bighead{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download Buttons */
+.download {
+  margin: 5% 3% 0 0;
+}
+
+/* Title Image */
+.timag {
+  width: 250px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.featit{
+  font-size: 1.5rem;
+}
+
+.feabox {
+
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+   padding: 7% 15%;
+}
+
+.testimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.prslog{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+
+}
+
+.price{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.prsclm{
+  padding: 3% 2%;
+}
+
+.sechead{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media(max-width: 992px){
+  #title{
+    text-align: center;
+  }
+  .timag{
+    position: static;
+    transform: rotate(0);
+    padding-top: 10px;
+  }
+}
+
+/* CTA Section */
+#cta{
+
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+
+
+/* Footer Section */
+#footer{
+  padding: 7% 15%;
+
+}
+
+.social{
+  margin: 20px 10px;
+}
